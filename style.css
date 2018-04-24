@@ -1,0 +1,41 @@
+body {
+  background-image: url(./images/cristian-parciu-384621-unsplash.jpg);
+  background-size: cover;
+}
+
+.startup {
+  height: 100%;
+  color: #aaa;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.startup-text {
+  margin: 20px auto;
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.startup-button {
+  margin: 0 auto;
+}
+
+.find-out-button {
+  background-color: #ff7400;
+  color: #000;
+  border: 0 none;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.find-out-button:hover {
+  color: #fff;
+  background-color: #ab4d00;
+}
